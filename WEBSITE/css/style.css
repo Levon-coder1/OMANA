@@ -1,0 +1,11 @@
+.nav-link:hover{
+    color: var(--bs-white);
+    background-color: var(--bs-info);
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.explore{
+    text-decoration: none;
+    text-underline-position: unset;
+}

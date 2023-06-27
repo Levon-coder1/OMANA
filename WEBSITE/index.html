@@ -1,1 +1,119 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMANA</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <script src="js/bootstrap.bundle.js" async></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" async></script>
+</head>
+<body class="bg-dark">
+  <nav class="navbar navbar-dark navbar-expand-lg fixed-top " >
+    <div class="container-fluid  ">
+      <a class="navbar-brand text-light " href="index.html"><i class="fa-solid fa-laptop" style="color: #ffffff;"></i>O<span class="text-info">MANA</span> </a>
+      <button class="navbar-toggler toggler-" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas bg-transparent align-content-start offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header bg-transparent">
+          <h5 class="offcanvas-title text-white " id="offcanvasNavbarLabel">OMANA</h5>
+          <button type="button" class="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body text-info bg-transparent" >
+          <ul class="navbar-nav justify-content-end flex-grow-1 pt-3">
+            <li class="nav-item text-info">
+              <a class="nav-link active text-info " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item text-info">
+              <a class="nav-link" href="shop.html"> Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#workers">Workers</a>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control rounded-pill bg-transparent text-info border-info me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn rounded-pill btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/background1.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-flex flex-column align-items-right justify-content-right">
+          <div class="p-3" style="max-width: 700px;">
+          <h6 class="section-title text-warning text-uppercase mb-3 animation slideInDown infinte">LAPTOPS</h6>
+          <h1 class="display-3 text-white mb-4 animated slideInDiwn"> Check it out</h1>
+          <div class="btn-outline-warning"> 
+           
+            <button class="btn btn-outline-info text-info">
+              <div class="align-items-center  justify-content-center">
+                <a href="shop.html" class="text-black text-bg-warning"><h3>SHOP NOW</h3></a>
+              </div>
+            </button></div>
+        </div>
+      </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/background1.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-flex flex-column align-items-right justify-content-right">
+          <div class="p-3" style="max-width: 700px;">
+          <h6 class="section-title text-warning text-uppercase mb-3 animation slideInDown ">LAPTOPS</h6>
+          <h1 class="display-3 text-white mb-4 animated slideInDown"> Check it out</h1>
+          <div class="btn-outline-warning"> 
+           
+            <button class="btn btn-outline-warning text-black">
+              <div class="align-items-center  justify-content-center">
+                <a href="shop.html" class="text-black text-bg-warning"><h3>SHOP NOW</h3></a>
+              </div>
+            </button></div>
+        </div>
+      </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/background1.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-flex flex-column align-items-left justify-content-left">
+          <div class="p-3" style="max-width: 700px;">
+          <h6 class="section-title text-info text-uppercase mb-3 animation slideInDown ">OMANA</h6>
+          <h1 class="display-3 text-white mb-4 animated slideInDown"> Your everday apk</h1>
+          <div class="btn-outline-info"> 
+           
+          <button class="btn btn-outline-warning text-black ">
+            <div class="align-items-center  justify-content-center">
+              <a href="shop.html" class="text-black text-bg-warning"><h3 class="explore">EXPLORE</h3></a>
+            </div>
+          </button></div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+ 
+  </div>
+</body>
+</html>
